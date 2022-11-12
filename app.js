@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
-const dbConnect = require('./configDB/dbConnect')
-const todoRoutes = require('./route/todoRoute') 
+const dbConnect = require('./src/configDB/dbConnect')
+const todoRoutes = require('./src/route/todoRoute') 
 
 const PORT = process.env.PORT || 7000
 
